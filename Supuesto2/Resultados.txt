@@ -1,0 +1,80 @@
+IMAGEN 1
+MEJORES CANDIDATOS (ranking top 5)
+Candidato 1: TAT_0480.jpg ---- Similitud: 25
+Candidato 2: TAT_0366.jpg ---- Similitud: 17
+Candidato 3: TAT_0306.jpg ---- Similitud: 15
+Candidato 4: TAT_0113.jpg ---- Similitud: 12
+Candidato 5: TAT_0149.jpg ---- Similitud: 12
+
+IMAGEN 2
+MEJORES CANDIDATOS (ranking top 5)
+Candidato 1: TAT_0481.jpg ---- Similitud: 22
+Candidato 2: TAT_0537.jpg ---- Similitud: 14
+Candidato 3: TAT_0118.jpg ---- Similitud: 13
+Candidato 4: TAT_0191.jpg ---- Similitud: 13
+Candidato 5: TAT_0478.jpg ---- Similitud: 12
+
+IMAGEN 3
+MEJORES CANDIDATOS (ranking top 5)
+Candidato 1: TAT_0476.jpg ---- Similitud: 336
+Candidato 2: TAT_0038.jpg ---- Similitud: 10
+Candidato 3: TAT_0288.jpg ---- Similitud: 9
+Candidato 4: TAT_0399.jpg ---- Similitud: 9
+Candidato 5: TAT_0189.jpg ---- Similitud: 8
+
+IMAGEN 4
+MEJORES CANDIDATOS (ranking top 5)
+Candidato 1: TAT_0477.jpg ---- Similitud: 114
+Candidato 2: TAT_0137.jpg ---- Similitud: 60
+Candidato 3: TAT_0288.jpg ---- Similitud: 38
+Candidato 4: TAT_0528.jpg ---- Similitud: 36
+Candidato 5: TAT_0242.jpg ---- Similitud: 29
+
+IMAGEN 5
+MEJORES CANDIDATOS (ranking top 5)
+Candidato 1: TAT_0478.jpg ---- Similitud: 86
+Candidato 2: TAT_0528.jpg ---- Similitud: 27
+Candidato 3: TAT_0038.jpg ---- Similitud: 24
+Candidato 4: TAT_0504.jpg ---- Similitud: 24
+Candidato 5: TAT_0523.jpg ---- Similitud: 24
+
+IMAGEN 6
+MEJORES CANDIDATOS (ranking top 5)
+Candidato 1: TAT_0479.jpg ---- Similitud: 48
+Candidato 2: TAT_0477.jpg ---- Similitud: 16
+Candidato 3: TAT_0025.jpg ---- Similitud: 15
+Candidato 4: TAT_0118.jpg ---- Similitud: 14
+Candidato 5: TAT_0358.jpg ---- Similitud: 13
+
+IMAGEN 7
+MEJORES CANDIDATOS (ranking top 5)
+Candidato 1: TAT_0496.jpg ---- Similitud: 144
+Candidato 2: TAT_0111.jpg ---- Similitud: 29
+Candidato 3: TAT_0129.jpg ---- Similitud: 25
+Candidato 4: TAT_0525.jpg ---- Similitud: 24
+Candidato 5: TAT_0482.jpg ---- Similitud: 23
+
+IMAGEN 8
+MEJORES CANDIDATOS (ranking top 5)
+Candidato 1: TAT_0497.jpg ---- Similitud: 133
+Candidato 2: TAT_0477.jpg ---- Similitud: 27
+Candidato 3: TAT_0409.jpg ---- Similitud: 25
+Candidato 4: TAT_0504.jpg ---- Similitud: 23
+Candidato 5: TAT_0531.jpg ---- Similitud: 22
+
+IMAGEN 9
+MEJORES CANDIDATOS (ranking top 5)
+Candidato 1: TAT_0498.jpg ---- Similitud: 149
+Candidato 2: TAT_0118.jpg ---- Similitud: 29
+Candidato 3: TAT_0203.jpg ---- Similitud: 26
+Candidato 4: TAT_0080.jpg ---- Similitud: 25
+Candidato 5: TAT_0144.jpg ---- Similitud: 25
+
+
+IMAGEN 10
+MEJORES CANDIDATOS (ranking top 5)
+Candidato 1: TAT_0495.jpg ---- Similitud: 52
+Candidato 2: TAT_0143.jpg ---- Similitud: 39
+Candidato 3: TAT_0203.jpg ---- Similitud: 39
+Candidato 4: TAT_0399.jpg ---- Similitud: 37
+Candidato 5: TAT_0358.jpg ---- Similitud: 36

@@ -1,0 +1,152 @@
+runfile('C:/Users/aidan/Desktop/TFG/CASOS/HEIGHT/HEIGHT_ESTIMATION.py', wdir='C:/Users/aidan/Desktop/TFG/CASOS/HEIGHT')
+
+Seleccionar en la imagen las lineas paralelas en el orden X Y Z
+
+PARALEL LINES
+-------------
+Nueva línea: [(819, 432), (478, 425)]
+Nueva línea: [(804, 480), (430, 471)]
+Nueva línea: [(543, 640), (554, 334)]
+Nueva línea: [(611, 534), (606, 333)]
+Nueva línea: [(472, 18), (501, 269)]
+Nueva línea: [(694, 41), (669, 272)]
+
+VANISHING POINTS
+----------------
+Eje x: horizontal vanishing point ------ (-12857, 151)
+Eje y: horizontal vanishing point ------ (585, -521)
+Eje z: vertical vanishing point   ------ (588, 1021)
+
+VANISHING POINTS HOMOGENEUS VECTORS
+-----------------------------------
+v1 ------ [-12857    151      1]
+v2 ------ [ 585 -521    1]
+v3 ------ [ 588 1021    1]
+
+SELECCION ALTURA DE REFERENCIA
+------------------------------
+Seleccione en la imagen el objeto de referencia: 
+1º Seleccione punto inferior (bottom)
+2º Seleccione punto superior (top) 
+
+Puntos altura de referencia:
+Bottom ------ (751, 271)
+Top --------- (765, 189)
+
+SELECCION ALTURA DE REFERENCIA (Zr)
+-----------------------------------
+Introduce la altura del objeto de referencia en cm: 50.2
+
+SELECCION ALTURA A MEDIR
+------------------------
+Seleccione en la imagen la altura que desea medir: 
+1º Seleccione punto inferior (bottom)
+2º Seleccione punto superior (top) 
+
+Puntos altura a medir:
+Bottom ------ (319, 372)
+Top --------- (223, 48)
+
+CÁLCULO DE LA ALTURA (Zx) EN forevid0.bmp
+-------------------------
+Cálculo vanishing line o horizon: 
+v1:  [-12857    151      1]
+v2:  [ 585 -521    1]
+hoz = np.cross(v1, v2)
+Horizon:  [1.01661443e-04 2.03353142e-03 9.99997927e-01]
+
+Cálculo factor de escala (alpha): 
+Zr:  50.2
+br:  [751 271   1]
+tr:  [765 189   1]
+v3:  [ 588 1021    1]
+horizon:  [1.01661443e-04 2.03353142e-03 9.99997927e-01]
+alpha = (-||bx x tx||) / (||horizon · bx|| · ||v3 x tx|| · Zr)
+Alpha:  -0.0011944836892713454
+
+Cálculo altura:
+bx:  [319 372   1]
+tx:  [223  48   1]
+v3:  [ 588 1021    1]
+alpha:  -0.0011944836892713454
+horizon:  [1.01661443e-04 2.03353142e-03 9.99997927e-01]
+Zx = (-||bx x tx||) / (||horizon · bx|| · ||v3 x tx|| · alpha)
+Height:  158.7115334321974
+
+EL SUJETO MEDIDO TIENE UNA ESTATURA DE: 158.71 cm ---- 1.59 m
+
+SELECCION ALTURA A MEDIR
+------------------------
+Seleccione en la imagen la altura que desea medir: 
+1º Seleccione punto inferior (bottom)
+2º Seleccione punto superior (top) 
+
+Puntos altura a medir:
+Bottom ------ (419, 412)
+Top --------- (365, 84)
+
+CÁLCULO DE LA ALTURA (Zx) EN forevid1.bmp
+-------------------------
+Cálculo vanishing line o horizon: 
+v1:  [-12857    151      1]
+v2:  [ 585 -521    1]
+hoz = np.cross(v1, v2)
+Horizon:  [1.01661443e-04 2.03353142e-03 9.99997927e-01]
+
+Cálculo factor de escala (alpha): 
+Zr:  50.2
+br:  [751 271   1]
+tr:  [765 189   1]
+v3:  [ 588 1021    1]
+horizon:  [1.01661443e-04 2.03353142e-03 9.99997927e-01]
+alpha = (-||bx x tx||) / (||horizon · bx|| · ||v3 x tx|| · Zr)
+Alpha:  -0.0011944836892713454
+
+Cálculo altura:
+bx:  [419 412   1]
+tx:  [365  84   1]
+v3:  [ 588 1021    1]
+alpha:  -0.0011944836892713454
+horizon:  [1.01661443e-04 2.03353142e-03 9.99997927e-01]
+Zx = (-||bx x tx||) / (||horizon · bx|| · ||v3 x tx|| · alpha)
+Height:  158.63172778441654
+
+EL SUJETO MEDIDO TIENE UNA ESTATURA DE: 158.63 cm ---- 1.59 m
+
+SELECCION ALTURA A MEDIR
+------------------------
+Seleccione en la imagen la altura que desea medir: 
+1º Seleccione punto inferior (bottom)
+2º Seleccione punto superior (top) 
+
+Puntos altura a medir:
+Bottom ------ (550, 451)
+Top --------- (516, 105)
+
+CÁLCULO DE LA ALTURA (Zx) EN forevid2.bmp
+-------------------------
+Cálculo vanishing line o horizon: 
+v1:  [-12857    151      1]
+v2:  [ 585 -521    1]
+hoz = np.cross(v1, v2)
+Horizon:  [1.01661443e-04 2.03353142e-03 9.99997927e-01]
+
+Cálculo factor de escala (alpha): 
+Zr:  50.2
+br:  [751 271   1]
+tr:  [765 189   1]
+v3:  [ 588 1021    1]
+horizon:  [1.01661443e-04 2.03353142e-03 9.99997927e-01]
+alpha = (-||bx x tx||) / (||horizon · bx|| · ||v3 x tx|| · Zr)
+Alpha:  -0.0011944836892713454
+
+Cálculo altura:
+bx:  [550 451   1]
+tx:  [516 105   1]
+v3:  [ 588 1021    1]
+alpha:  -0.0011944836892713454
+horizon:  [1.01661443e-04 2.03353142e-03 9.99997927e-01]
+Zx = (-||bx x tx||) / (||horizon · bx|| · ||v3 x tx|| · alpha)
+Height:  159.6232648076056
+
+EL SUJETO MEDIDO TIENE UNA ESTATURA DE: 159.62 cm ---- 1.6 m

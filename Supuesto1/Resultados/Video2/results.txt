@@ -1,0 +1,282 @@
+runfile('C:/Users/aidan/Desktop/TFG/CASOS/HEIGHT/HEIGHT_ESTIMATION.py', wdir='C:/Users/aidan/Desktop/TFG/CASOS/HEIGHT')
+
+Seleccionar en la imagen las lineas paralelas en el orden X Y Z
+
+PARALEL LINES
+-------------
+Nueva línea: [(199, 654), (822, 593)]
+Nueva línea: [(197, 380), (523, 367)]
+Nueva línea: [(467, 688), (447, 498)]
+Nueva línea: [(872, 596), (732, 500)]
+Nueva línea: [(311, 101), (324, 565)]
+Nueva línea: [(931, 134), (929, 519)]
+
+VANISHING POINTS
+----------------
+Eje x: horizontal vanishing point ------ (4922, 192)
+Eje y: horizontal vanishing point ------ (425, 290)
+Eje z: vertical vanishing point   ------ (834, 18774)
+
+VANISHING POINTS HOMOGENEUS VECTORS
+-----------------------------------
+v1 ------ [4922  192    1]
+v2 ------ [425 290   1]
+v3 ------ [  834 18774     1]
+
+SELECCION ALTURA DE REFERENCIA
+------------------------------
+Seleccione en la imagen el objeto de referencia: 
+1º Seleccione punto inferior (bottom)
+2º Seleccione punto superior (top) 
+
+Puntos altura de referencia:
+Bottom ------ (922, 630)
+Top --------- (922, 560)
+
+SELECCION ALTURA DE REFERENCIA (Zr)
+-----------------------------------
+Introduce la altura del objeto de referencia en cm: 42.8
+
+SELECCION ALTURA A MEDIR
+------------------------
+Seleccione en la imagen la altura que desea medir: 
+1º Seleccione punto inferior (bottom)
+2º Seleccione punto superior (top) 
+
+Puntos altura a medir:
+Bottom ------ (678, 690)
+Top --------- (660, 357)
+
+CÁLCULO DE LA ALTURA (Zx) EN 21.bmp
+-------------------------
+Cálculo vanishing line o horizon: 
+v1:  [4922  192    1]
+v2:  [425 290   1]
+hoz = np.cross(v1, v2)
+Horizon:  [-7.28198165e-05 -3.34153790e-03  9.99994414e-01]
+
+Cálculo factor de escala (alpha): 
+Zr:  42.8
+br:  [922 630   1]
+tr:  [922 560   1]
+v3:  [  834 18774     1]
+horizon:  [-7.28198165e-05 -3.34153790e-03  9.99994414e-01]
+alpha = (-||bx x tx||) / (||horizon · bx|| · ||v3 x tx|| · Zr)
+Alpha:  7.637167087873855e-05
+
+Cálculo altura:
+bx:  [678 690   1]
+tx:  [660 357   1]
+v3:  [  834 18774     1]
+alpha:  7.637167087873855e-05
+horizon:  [-7.28198165e-05 -3.34153790e-03  9.99994414e-01]
+Zx = (-||bx x tx||) / (||horizon · bx|| · ||v3 x tx|| · alpha)
+Height:  170.48224238719666
+
+EL SUJETO MEDIDO TIENE UNA ESTATURA DE: 170.48 cm ---- 1.7 m
+
+SELECCION ALTURA A MEDIR
+------------------------
+Seleccione en la imagen la altura que desea medir: 
+1º Seleccione punto inferior (bottom)
+2º Seleccione punto superior (top) 
+
+Puntos altura a medir:
+Bottom ------ (642, 636)
+Top --------- (633, 360)
+
+CÁLCULO DE LA ALTURA (Zx) EN 22.bmp
+-------------------------
+Cálculo vanishing line o horizon: 
+v1:  [4922  192    1]
+v2:  [425 290   1]
+hoz = np.cross(v1, v2)
+Horizon:  [-7.28198165e-05 -3.34153790e-03  9.99994414e-01]
+
+Cálculo factor de escala (alpha): 
+Zr:  42.8
+br:  [922 630   1]
+tr:  [922 560   1]
+v3:  [  834 18774     1]
+horizon:  [-7.28198165e-05 -3.34153790e-03  9.99994414e-01]
+alpha = (-||bx x tx||) / (||horizon · bx|| · ||v3 x tx|| · Zr)
+Alpha:  7.637167087873855e-05
+
+Cálculo altura:
+bx:  [642 636   1]
+tx:  [633 360   1]
+v3:  [  834 18774     1]
+alpha:  7.637167087873855e-05
+horizon:  [-7.28198165e-05 -3.34153790e-03  9.99994414e-01]
+Zx = (-||bx x tx||) / (||horizon · bx|| · ||v3 x tx|| · alpha)
+Height:  165.38093588422467
+
+EL SUJETO MEDIDO TIENE UNA ESTATURA DE: 165.38 cm ---- 1.65 m
+
+SELECCION ALTURA A MEDIR
+------------------------
+Seleccione en la imagen la altura que desea medir: 
+1º Seleccione punto inferior (bottom)
+2º Seleccione punto superior (top) 
+
+Puntos altura a medir:
+Bottom ------ (601, 590)
+Top --------- (595, 338)
+
+CÁLCULO DE LA ALTURA (Zx) EN 23.bmp
+-------------------------
+Cálculo vanishing line o horizon: 
+v1:  [4922  192    1]
+v2:  [425 290   1]
+hoz = np.cross(v1, v2)
+Horizon:  [-7.28198165e-05 -3.34153790e-03  9.99994414e-01]
+
+Cálculo factor de escala (alpha): 
+Zr:  42.8
+br:  [922 630   1]
+tr:  [922 560   1]
+v3:  [  834 18774     1]
+horizon:  [-7.28198165e-05 -3.34153790e-03  9.99994414e-01]
+alpha = (-||bx x tx||) / (||horizon · bx|| · ||v3 x tx|| · Zr)
+Alpha:  7.637167087873855e-05
+
+Cálculo altura:
+bx:  [601 590   1]
+tx:  [595 338   1]
+v3:  [  834 18774     1]
+alpha:  7.637167087873855e-05
+horizon:  [-7.28198165e-05 -3.34153790e-03  9.99994414e-01]
+Zx = (-||bx x tx||) / (||horizon · bx|| · ||v3 x tx|| · alpha)
+Height:  175.19138086532865
+
+EL SUJETO MEDIDO TIENE UNA ESTATURA DE: 175.19 cm ---- 1.75 m
+
+SELECCION ALTURA A MEDIR
+------------------------
+Seleccione en la imagen la altura que desea medir: 
+1º Seleccione punto inferior (bottom)
+2º Seleccione punto superior (top) 
+
+Puntos altura a medir:
+Bottom ------ (587, 547)
+Top --------- (579, 334)
+
+CÁLCULO DE LA ALTURA (Zx) EN 24.bmp
+-------------------------
+Cálculo vanishing line o horizon: 
+v1:  [4922  192    1]
+v2:  [425 290   1]
+hoz = np.cross(v1, v2)
+Horizon:  [-7.28198165e-05 -3.34153790e-03  9.99994414e-01]
+
+Cálculo factor de escala (alpha): 
+Zr:  42.8
+br:  [922 630   1]
+tr:  [922 560   1]
+v3:  [  834 18774     1]
+horizon:  [-7.28198165e-05 -3.34153790e-03  9.99994414e-01]
+alpha = (-||bx x tx||) / (||horizon · bx|| · ||v3 x tx|| · Zr)
+Alpha:  7.637167087873855e-05
+
+Cálculo altura:
+bx:  [587 547   1]
+tx:  [579 334   1]
+v3:  [  834 18774     1]
+alpha:  7.637167087873855e-05
+horizon:  [-7.28198165e-05 -3.34153790e-03  9.99994414e-01]
+Zx = (-||bx x tx||) / (||horizon · bx|| · ||v3 x tx|| · alpha)
+Height:  171.33542625730678
+
+EL SUJETO MEDIDO TIENE UNA ESTATURA DE: 171.34 cm ---- 1.71 m
+
+SELECCION ALTURA A MEDIR
+------------------------
+Seleccione en la imagen la altura que desea medir: 
+1º Seleccione punto inferior (bottom)
+2º Seleccione punto superior (top) 
+
+Puntos altura a medir:
+Bottom ------ (572, 521)
+Top --------- (563, 331)
+
+CÁLCULO DE LA ALTURA (Zx) EN 25.bmp
+-------------------------
+Cálculo vanishing line o horizon: 
+v1:  [4922  192    1]
+v2:  [425 290   1]
+hoz = np.cross(v1, v2)
+Horizon:  [-7.28198165e-05 -3.34153790e-03  9.99994414e-01]
+
+Cálculo factor de escala (alpha): 
+Zr:  42.8
+br:  [922 630   1]
+tr:  [922 560   1]
+v3:  [  834 18774     1]
+horizon:  [-7.28198165e-05 -3.34153790e-03  9.99994414e-01]
+alpha = (-||bx x tx||) / (||horizon · bx|| · ||v3 x tx|| · Zr)
+Alpha:  7.637167087873855e-05
+
+Cálculo altura:
+bx:  [572 521   1]
+tx:  [563 331   1]
+v3:  [  834 18774     1]
+alpha:  7.637167087873855e-05
+horizon:  [-7.28198165e-05 -3.34153790e-03  9.99994414e-01]
+Zx = (-||bx x tx||) / (||horizon · bx|| · ||v3 x tx|| · alpha)
+Height:  169.02538411827337
+
+EL SUJETO MEDIDO TIENE UNA ESTATURA DE: 169.03 cm ---- 1.69 m
+
+SELECCION ALTURA A MEDIR
+------------------------
+Seleccione en la imagen la altura que desea medir: 
+1º Seleccione punto inferior (bottom)
+2º Seleccione punto superior (top) 
+
+Puntos altura a medir:
+Bottom ------ (565, 497)
+Top --------- (560, 327)
+
+CÁLCULO DE LA ALTURA (Zx) EN 26.bmp
+-------------------------
+Cálculo vanishing line o horizon: 
+v1:  [4922  192    1]
+v2:  [425 290   1]
+hoz = np.cross(v1, v2)
+Horizon:  [-7.28198165e-05 -3.34153790e-03  9.99994414e-01]
+
+Cálculo factor de escala (alpha): 
+Zr:  42.8
+br:  [922 630   1]
+tr:  [922 560   1]
+v3:  [  834 18774     1]
+horizon:  [-7.28198165e-05 -3.34153790e-03  9.99994414e-01]
+alpha = (-||bx x tx||) / (||horizon · bx|| · ||v3 x tx|| · Zr)
+Alpha:  7.637167087873855e-05
+
+Cálculo altura:
+bx:  [565 497   1]
+tx:  [560 327   1]
+v3:  [  834 18774     1]
+alpha:  7.637167087873855e-05
+horizon:  [-7.28198165e-05 -3.34153790e-03  9.99994414e-01]
+Zx = (-||bx x tx||) / (||horizon · bx|| · ||v3 x tx|| · alpha)
+Height:  170.44316094299828
+
+EL SUJETO MEDIDO TIENE UNA ESTATURA DE: 170.44 cm ---- 1.7 m
+Traceback (most recent call last):
+
+  File ~\anaconda3\Lib\site-packages\spyder_kernels\py3compat.py:356 in compat_exec
+    exec(code, globals, locals)
+
+  File c:\users\aidan\desktop\tfg\casos\height\height_estimation.py:458
+    print(mean_height)
+
+NameError: name 'mean_height' is not defined
+
+
+print(total_height)
+[170.48224238719666, 165.38093588422467, 175.19138086532865, 171.33542625730678, 169.02538411827337, 170.44316094299828]
+
+print(sum(total_height)/len(total_height))
+170.30975507588806
