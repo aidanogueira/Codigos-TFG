@@ -1,27 +1,5 @@
 # Material TFG 🗂️
-├───Supuesto1
-│   ├───Fotogramas
-│   │   ├───Video1
-│   │   └───Video2
-│   ├───Resultados
-│   │   ├───Video1
-│   │   └───Video2
-│   └───Videos
-├───Supuesto2
-│   └───Consulta
-├───Supuesto3
-│   ├───BD_Identidades
-│   │   └───Itciar
-│   ├───Dataset
-│   └───Positivos
-└───Supuesto4
-    ├───FotogramasHR
-    │   ├───Matricula
-    │   └───Rostro
-    ├───FotogramasLR
-    │   ├───Matricula
-    │   └───Rostro
-    ├───ResultsBasicVSR
-    │   ├───Matricula
-    │   └───Rostro
-    └───ROIVideosHR
+## Supuesto 1. Estimación de la altura en vidta única. 
+## Supuesto 2. Búsqueda automatizada de tatuajes en bases de datos.
+## Supuesto 3. Reconocimiento facial en imágenes.
+## Supuesto 4. Mejora de resolución en vídeo.
