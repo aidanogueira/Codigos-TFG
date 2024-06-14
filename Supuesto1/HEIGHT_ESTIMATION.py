@@ -1,21 +1,6 @@
 """
 SINGLE-VIEW METROLOGY 
 Created on Sat May 4 18:00:06 2024
-@author: aidan
-
-FUNCION DE ESTIMACION DE ALTURA BASADA EN: 
-Function Name: computeCameraHeight 
-Gets the camera height from the vanishing points and the height of a
-reference object with known botton and top image projections
-REFERENCE: Criminisi, Reid and Zisserman. Single View Metrology. 1999
- Revision: v1.0$ 
- Author: Carlos Beltran-Gonzalez$
- Email: carlos.beltran@iit.it
-Istituto Italiano di Tecnologia
-Pattern Analysis and Computer Vision
-Date:  May 26, 2020$
-Copyright (C) 2020 Carlos Beltran-Gonzalez
-CopyPolicy: GNU Lesser General Public License v3
 """
 
 import cv2
